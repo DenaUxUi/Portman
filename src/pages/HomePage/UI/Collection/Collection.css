@@ -1,0 +1,38 @@
+.collection-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.collection-img {
+    background-image: url(../../../../entities/UI/Colection.png);
+    width: 50%;
+    height: 600px;
+}
+
+.collection-space {
+    background-color: black;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .collection-block {
+        flex-direction: column;
+    }
+
+    .collection-img,
+    .collection-space {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .collection-space {
+        padding: 20px;
+    }
+}

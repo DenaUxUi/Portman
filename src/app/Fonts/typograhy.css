@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.PT-sans {
+    font-family: 'PT Sans', sans-serif;
+}
+.Post-No {
+    font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
+}
+.Playfair {
+    font-family: "Playfair Display", serif;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 60px;
+}
+
+.title-out {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.body-text {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.sub-text {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.nav-text {
+    font-size: 14px;
+}
+
+.optional-text {
+    font-size: 12px;
+}
+
+.func-text {
+    cursor: pointer;
+}
+
+.selected-bg {
+    background-color: #1f1f1f;
+    height: 100%;
+}
+
+.selected-color {
+    color: #fff;
+}
+
+.white {
+    color: white;
+}
+
+.limited-width {
+    max-width: 50%;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+        padding: 40px;
+    }
+
+    .title-out {
+        font-size: 28px;
+    }
+
+    .body-text {
+        font-size: 18px;
+    }
+
+    .sub-text {
+        font-size: 14px;
+    }
+
+    .post-title {
+        font-size: 16px;
+    }
+
+    .nav-text {
+        font-size: 12px;
+    }
+
+    .optional-text {
+        font-size: 10px;
+    }
+
+    .limited-width {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .title-out {
+        font-size: 24px;
+    }
+
+    .body-text {
+        font-size: 16px;
+    }
+
+    .sub-text {
+        font-size: 12px;
+    }
+
+    .post-title {
+        font-size: 14px;
+    }
+
+    .nav-text {
+        font-size: 10px;
+    }
+
+    .optional-text {
+        font-size: 8px;
+    }
+
+    .limited-width {
+        max-width: 90%;
+    }
+}

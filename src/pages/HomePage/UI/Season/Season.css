@@ -1,0 +1,85 @@
+
+.season-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.new-season {
+    background-color: #000;
+    width: 50%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.img-frame {
+    background-color: #191B1C;
+    width: 240.75px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-season-img {
+    background-image: url(../../../../entities/UI/new-season-img.png);
+    width: 50%;
+    height: 730px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+@media (max-width: 768px) {
+    .season-block {
+        flex-direction: column;
+    }
+
+    .new-season {
+        width: 100%;
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .img-frame {
+        width: 100%;
+        height: auto; 
+    }
+
+    .new-season-img {
+        width: 100%;
+        height: auto; 
+        background-size: cover; 
+        background-position: center; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .cards {
+        gap: 10px;
+    }
+}

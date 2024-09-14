@@ -1,0 +1,31 @@
+.card {
+    box-sizing: border-box;
+}
+
+.first {
+    margin-top: 25px;
+}
+
+.second {
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .first {
+        margin-top: 20px;
+    }
+
+    .second {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .first {
+        margin-top: 15px;
+    }
+
+    .second {
+        margin-top: 2px;
+    }
+}
